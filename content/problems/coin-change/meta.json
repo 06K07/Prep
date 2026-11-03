@@ -1,0 +1,7 @@
+{
+  "title": "Coin Change",
+  "difficulty": "medium",
+  "topics": ["dynamic-programming"],
+  "timeLimitMs": 2000,
+  "seed": 44
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Merge Intervals",
+  "difficulty": "medium",
+  "topics": ["arrays", "sorting", "intervals"],
+  "timeLimitMs": 2000,
+  "seed": 11
+}

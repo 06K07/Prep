@@ -1,0 +1,4 @@
+node_modules
+content/repos
+content/problems/*/starter.cpp
+package-lock.json

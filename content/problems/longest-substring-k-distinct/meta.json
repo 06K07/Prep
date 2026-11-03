@@ -1,0 +1,7 @@
+{
+  "title": "Longest Substring With At Most K Distinct",
+  "difficulty": "medium",
+  "topics": ["sliding-window", "strings", "hashing"],
+  "timeLimitMs": 2000,
+  "seed": 88
+}

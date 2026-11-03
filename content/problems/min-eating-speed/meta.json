@@ -1,0 +1,7 @@
+{
+  "title": "Minimum Eating Speed",
+  "difficulty": "medium",
+  "topics": ["binary-search", "search-on-answer"],
+  "timeLimitMs": 2000,
+  "seed": 33
+}

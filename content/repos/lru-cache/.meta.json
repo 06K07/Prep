@@ -1,0 +1,7 @@
+{
+  "title": "LRU Cache with TTL",
+  "difficulty": "hard",
+  "tags": ["cache", "lru", "ttl", "templates", "negative-caching"],
+  "totalTests": 12,
+  "failingTests": 7
+}

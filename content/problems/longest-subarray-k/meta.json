@@ -1,0 +1,7 @@
+{
+  "title": "Longest Subarray With Sum K",
+  "difficulty": "medium",
+  "topics": ["arrays", "hashing", "prefix-sum"],
+  "timeLimitMs": 2000,
+  "seed": 1337
+}

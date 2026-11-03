@@ -1,0 +1,7 @@
+{
+  "title": "Order Service (checkout)",
+  "difficulty": "hard",
+  "tags": ["inventory", "payments", "rollback", "overflow", "state-machine"],
+  "totalTests": 13,
+  "failingTests": 6
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>C++ Assessment Prep</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main id="setup" class="center">
+      <div class="card">
+        <h1>C++ Assessment Prep</h1>
+        <p class="muted">
+          Part 1: DSA (<span id="dsa-min">70</span> min total) &middot; Part 2: Backend repo (<span
+            id="repo-min"
+            >45</span
+          >
+          min) with a read-only AI helper.
+        </p>
+        <div class="form-row">
+          <label for="repo-select">Backend repo</label>
+          <select id="repo-select">
+            <option value="random">Random</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="count-select">DSA questions</label>
+          <select id="count-select">
+            <option value="1">1 question</option>
+            <option value="2" selected>2 questions</option>
+            <option value="3">3 questions</option>
+          </select>
+        </div>
+        <p class="muted">Language: <span class="pill">C++</span> (locked once the test starts)</p>
+        <button id="start-btn">Start test</button>
+        <p id="setup-error" class="error" role="alert"></p>
+      </div>
+    </main>
+
+    <div id="app" hidden>
+      <header>
+        <strong id="part-title"></strong>
+        <span class="pill">C++</span>
+        <span class="pill" id="ai-pill"></span>
+        <span class="timer" id="timer"></span>
+        <button id="submit-part" class="secondary">Submit part</button>
+      </header>
+
+      <section id="dsa-view" class="split">
+        <div class="pane">
+          <div class="row" id="q-tabs" role="tablist"></div>
+          <h2 id="problem-title"></h2>
+          <pre id="statement"></pre>
+          <label for="custom-input">Custom input</label>
+          <textarea id="custom-input" class="small" spellcheck="false">
+5 3&#10;1 -1 5 -2 3</textarea>
+          <div class="row">
+            <button id="run-sample" class="secondary">Run on custom input</button>
+          </div>
+          <pre id="sample-output" aria-live="polite"></pre>
+        </div>
+        <div class="pane">
+          <textarea
+            id="code"
+            class="editor"
+            spellcheck="false"
+            aria-label="C++ solution"
+          ></textarea>
+          <div class="row"><button id="run-dsa">Run all hidden tests</button></div>
+          <pre id="dsa-output" aria-live="polite">Output will appear here.</pre>
+        </div>
+      </section>
+
+      <section id="repo-view" class="split" hidden>
+        <div class="pane">
+          <div class="row" id="file-tabs" role="tablist"></div>
+          <textarea
+            id="file-editor"
+            class="editor"
+            spellcheck="false"
+            aria-label="File editor"
+          ></textarea>
+          <div class="row">
+            <button id="run-repo">Run tests</button>
+            <button id="reset-repo" class="secondary">Reset repo</button>
+          </div>
+          <pre id="repo-output" aria-live="polite">Run the tests first.</pre>
+        </div>
+        <div class="pane">
+          <h2>AI helper <span class="muted">(read-only, hints only)</span></h2>
+          <div class="row">
+            <input
+              id="ai-question"
+              placeholder="e.g. why does the pagination test fail?"
+              maxlength="1000"
+            />
+            <button id="ai-ask">Ask</button>
+          </div>
+          <pre id="ai-answer" aria-live="polite">
+Hints only: which test fails and where to look.</pre>
+        </div>
+      </section>
+
+      <section id="result" class="center" hidden>
+        <div class="card" id="result-card"></div>
+      </section>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

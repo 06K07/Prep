@@ -1,0 +1,7 @@
+{
+  "title": "API Rate Limiter",
+  "difficulty": "medium",
+  "tags": ["token-bucket", "sliding-window", "time", "floating-point"],
+  "totalTests": 11,
+  "failingTests": 6
+}

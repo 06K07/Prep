@@ -1,0 +1,7 @@
+{
+  "title": "Course Schedule",
+  "difficulty": "medium",
+  "topics": ["graphs", "topological-sort", "cycle-detection"],
+  "timeLimitMs": 2000,
+  "seed": 66
+}

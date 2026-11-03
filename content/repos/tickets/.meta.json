@@ -1,0 +1,7 @@
+{
+  "title": "Ticket Management System",
+  "difficulty": "medium",
+  "tags": ["workflow", "pagination", "sla", "layers"],
+  "totalTests": 14,
+  "failingTests": 8
+}

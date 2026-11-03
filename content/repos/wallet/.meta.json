@@ -1,0 +1,7 @@
+{
+  "title": "Wallet Service (warm-up)",
+  "difficulty": "easy",
+  "tags": ["idempotency", "validation"],
+  "totalTests": 6,
+  "failingTests": 5
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Job Queue with Retries",
+  "difficulty": "hard",
+  "tags": ["retries", "backoff", "leases", "dead-letter", "boundaries"],
+  "totalTests": 12,
+  "failingTests": 6
+}

@@ -1,0 +1,8 @@
+{
+  "title": "URL Shortener (CMake project)",
+  "difficulty": "hard",
+  "tags": ["cmake", "library", "base62", "validation", "expiry", "aliases"],
+  "requires": ["cmake", "make"],
+  "totalTests": 37,
+  "failingTests": 17
+}

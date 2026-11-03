@@ -1,0 +1,21 @@
+{
+  "name": "cpp-assessment-prep",
+  "version": "1.0.0",
+  "description": "Practice tool for timed C++ assessments: DSA problems and a broken backend repo with a read-only AI helper",
+  "private": true,
+  "license": "MIT",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.3.0"
+  }
+}

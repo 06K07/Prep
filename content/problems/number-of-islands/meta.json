@@ -1,0 +1,7 @@
+{
+  "title": "Number of Islands",
+  "difficulty": "medium",
+  "topics": ["graphs", "bfs", "dfs", "grid"],
+  "timeLimitMs": 2000,
+  "seed": 22
+}
